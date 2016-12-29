@@ -204,3 +204,5 @@ TARGET_HAS_DEVICE_IMS := true
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
+
+-include vendor/google/marlin/BoardConfigVendor.mk

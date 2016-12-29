@@ -33,4 +33,5 @@ PRODUCT_MANUFACTURER := google
 PRODUCT_COPY_FILES += device/google/marlin/fstab.aosp_common:root/fstab.sailfish
 
 $(call inherit-product, device/google/marlin/device-sailfish.mk)
+$(call inherit-product, vendor/google/marlin/marlin-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/marlin/device-vendor-sailfish.mk)
