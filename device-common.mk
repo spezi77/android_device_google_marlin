@@ -459,3 +459,7 @@ PRODUCT_PACKAGES += libion
 # Fingerprint sensor type
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc
+
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager
