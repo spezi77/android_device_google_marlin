@@ -470,3 +470,7 @@ PRODUCT_PACKAGES += \
 
 # HWcomposer
 PRODUCT_PACKAGES += hwcomposer.msm8996
+
+# Pixel Experience
+PRODUCT_COPY_FILES += \
+    device/google/marlin/nexus.xml:system/etc/sysconfig/nexus.xml
