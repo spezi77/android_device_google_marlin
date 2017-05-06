@@ -664,7 +664,6 @@ PRODUCT_PACKAGES += \
        BTTestApp \
        HiddTestApp \
        BTLogKit \
-       a4wpservice \
        BTLogSave \
        wipowerservice
 endif
