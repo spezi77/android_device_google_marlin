@@ -28,6 +28,9 @@ allow cameraserver sensorservice_service:service_manager find;
 
 allow cameraserver self:socket { create ioctl read write };
 
+allow cameraserver firmware_file:dir search;
+allow cameraserver graphics_device:dir search;
+
 # Grant access to Qualcomm MSM Interface (QMI) radio sockets
 qmux_socket(cameraserver)
 

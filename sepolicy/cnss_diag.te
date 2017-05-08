@@ -6,6 +6,7 @@ type cnss_diag_exec, exec_type, file_type;
 # Temporarily grant this permission and log its use.
 allow cnss_diag self:capability net_admin;
 allow cnss_diag self:capability { setgid setuid };
+allow cnss_diag self:capability { dac_override dac_read_search };
 allow cnss_diag self:netlink_socket create_socket_perms;
 
 auditallow cnss_diag self:capability net_admin;
