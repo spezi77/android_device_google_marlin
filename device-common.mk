@@ -466,3 +466,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # IMS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager
+
+# HWcomposer
+PRODUCT_PACKAGES += hwcomposer.msm8996
