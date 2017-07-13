@@ -107,7 +107,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := /vendor/lib/dsp:/dsp
 
 TARGET_EXCLUDE_QCOM_SEPOLICY := true
 BOARD_SEPOLICY_DIRS += device/google/marlin/sepolicy
-ifneq ($(filter marlin marlinf, $(TARGET_PRODUCT)),)
+ifneq ($(filter marlin marlinf, $(TARGET_DEVICE)),)
 BOARD_SEPOLICY_DIRS += device/google/marlin/sepolicy/verizon
 endif
 BOARD_SECCOMP_POLICY += device/google/marlin/seccomp
