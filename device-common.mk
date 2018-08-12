@@ -622,3 +622,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service.marlin
+
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager.xml \
+    com.android.ims.rcsmanager \
+    RcsService \
+    PresencePolling
