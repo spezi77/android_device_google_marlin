@@ -224,3 +224,6 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
+
+# Disable qmi EAP-SIM security
+DISABLE_EAP_PROXY := true
